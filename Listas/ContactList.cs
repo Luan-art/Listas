@@ -113,5 +113,15 @@ namespace Listas
             }
         }
 
+        public void ShowAll()
+        {
+            Contact aux = head;
+            do
+            {
+                Console.WriteLine(aux.ToString());
+                aux = aux.getNext();
+            } while (aux != null);
+        }
+
     }
 }

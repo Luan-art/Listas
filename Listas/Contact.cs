@@ -32,5 +32,10 @@ namespace Listass
         {
             return next;
         }
+
+        public override string ToString()
+        {
+            return "\nNome: " + this.name + "\nTelefone: " + this.telefone;
+        }
     }
 }
